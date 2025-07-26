@@ -14,7 +14,7 @@ Make sure you have Rust and Cargo installed:
 ## 📁 Project Structure
 
 ```text
-multi_lang_demo/
+mix_language_project/
 ├── Cargo.toml       # Project metadata and dependencies
 ├── build.rs         # Compiles C code into a static library
 ├── sum.c            # C source file containing `sum` function

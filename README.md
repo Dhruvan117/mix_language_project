@@ -28,7 +28,7 @@ cargo build
 cargo run
 ```
 
-##Working
+## Working
 ```text
 First Cargo create libsum.a from the C sum file and store it in the target library. Then, build the Rust project and at linking time, add libsum.a to the final executable.
 ```

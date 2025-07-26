@@ -11,13 +11,15 @@ The project demonstrates how **Rust can call a C function** using FFI (Foreign F
 Make sure you have Rust and Cargo installed:  
 👉 [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
 
+## 📁 Project Structure
+
+```text
 multi_lang_demo/
 ├── Cargo.toml       # Project metadata and dependencies
 ├── build.rs         # Compiles C code into a static library
 ├── sum.c            # C source file containing `sum` function
 └── src/
     └── main.rs      # Rust main file calling C function
-
 
 To build and run:
 

@@ -20,11 +20,11 @@ multi_lang_demo/
 ├── sum.c            # C source file containing `sum` function
 └── src/
     └── main.rs      # Rust main file calling C function
-
+```
 To build and run:
 
 ```bash
 cargo build
 cargo run
-
+```
 
